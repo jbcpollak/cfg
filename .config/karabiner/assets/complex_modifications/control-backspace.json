@@ -1,0 +1,33 @@
+{
+  "title": "Control Backspace sends Delete",
+  "rules": [
+    {
+      "description": "Control Backspace sends Delete",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "delete_or_backspace",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "caps_lock",
+                "command",
+                "option",
+                "shift",
+                "fn"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

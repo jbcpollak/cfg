@@ -30,6 +30,7 @@ cask 'google-chrome' unless system 'test -e /Applications/Google\ Chrome.app'
 cask 'meld' unless system 'test -e /Applications/Meld.app'
 cask 'steam' unless system 'test -e /Applications/Steam.app'
 cask 'sourcetree' unless system 'test -e /Applications/Sourcetree.app'
+cask 'uhk-agent' unless system 'test -e /Applications/UHK\ Agent.app'
 cask 'vlc' unless system 'test -e /Applications/VLC.app'
 cask 'visual-studio-code' unless system 'test -e /Applications/Visual\ Studio\ Code.app'
 

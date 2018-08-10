@@ -176,8 +176,6 @@ protocol = https
 
 [credential]
 	helper = osxkeychain
-[commit]
-	template = /Users/jpollak/.stCommitMsg
 [github]
 	user = jbcpollak
 [status]

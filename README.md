@@ -26,3 +26,10 @@ config checkout
 config config status.showUntrackedFiles no
 config submodule update --init --recursive
 ```
+
+
+# Other MacOS Setup Scripts
+
+* https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+* https://github.com/orrsella/dotfiles/blob/master/setup-macos.sh
+

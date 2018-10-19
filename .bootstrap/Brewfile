@@ -21,7 +21,9 @@ cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 
 # brew cask list
+cask gpg-suite
 cask 'alfred' unless system 'test -e /Applications/Alfred\ 3.app'
+cask 'beyond-compare' unless system 'test -e /Applications/Beyond Compare.app'
 cask 'fork' unless system 'test -e /Applications/Fork.app'
 cask 'istat-menus' unless system 'test -e /Applications/iStat\ Menus.app'
 cask 'transmission' unless system 'test -e /Applications/Transmission.app'
@@ -34,6 +36,8 @@ cask 'sourcetree' unless system 'test -e /Applications/Sourcetree.app'
 cask 'uhk-agent' unless system 'test -e /Applications/UHK\ Agent.app'
 cask 'vlc' unless system 'test -e /Applications/VLC.app'
 cask 'visual-studio-code' unless system 'test -e /Applications/Visual\ Studio\ Code.app'
+cask 'spotfy' unless system 'test -e '/Applications/Spotify.app'
+cask 'signal' unless system 'test -e '/Applications/Signal.app'
 
 # Fonts
 tap 'caskroom/fonts'

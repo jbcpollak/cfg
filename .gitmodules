@@ -28,3 +28,6 @@
 [submodule ".zprezto"]
 	path = .zprezto
 	url = https://git::@github.com/jbcpollak/prezto.git
+[submodule ".tmux/plugins/tpm"]
+	path = .tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm

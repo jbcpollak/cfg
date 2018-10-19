@@ -162,12 +162,13 @@
 	insteadOf = "gist:"
 [user]
 	name = Joshua Chaitin-Pollak
-	email = josh@offthehill.org
+	email = josh@c11k.org
+	signingkey = 7FF73CFD00131B75
 [difftool "sourcetree"]
-	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\"
-	path = -ro
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [mergetool "sourcetree"]
-	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 
 [hub]
@@ -183,3 +184,6 @@ protocol = https
 [merge "npm-merge-driver"]
 	name = automatically merge npm lockfiles
 	driver = npx --ignore-existing npm-merge-driver merge %A %O %B %P
+[commit]
+	gpgsign = true
+	template = /Users/jpollak/.stCommitMsg

@@ -24,6 +24,7 @@ tap 'caskroom/cask'
 cask gpg-suite
 cask 'alfred' unless system 'test -e /Applications/Alfred\ 3.app'
 cask 'beyond-compare' unless system 'test -e /Applications/Beyond Compare.app'
+cask 'etcher' unless system 'test -e /Applications/Etcher.app'
 cask 'fork' unless system 'test -e /Applications/Fork.app'
 cask 'istat-menus' unless system 'test -e /Applications/iStat\ Menus.app'
 cask 'transmission' unless system 'test -e /Applications/Transmission.app'

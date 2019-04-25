@@ -50,3 +50,4 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 source /opt/boxen/env.sh
 
 export PATH="$HOME/.cargo/bin:$PATH"
+source ~/.bashrc

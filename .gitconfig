@@ -186,4 +186,4 @@ protocol = https
 	driver = npx --ignore-existing npm-merge-driver merge %A %O %B %P
 [commit]
 	gpgsign = true
-	template = /Users/jpollak/.stCommitMsg
+	template = /Users/jpollak/.gittemplate

@@ -163,7 +163,7 @@
 [user]
 	name = Joshua Chaitin-Pollak
 	email = josh@c11k.org
-	signingkey = 7FF73CFD00131B75
+	signingkey = 673EDBAC3AF19429
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 

@@ -12,6 +12,22 @@ config submodule update --recursive --remote
 On a Mac, ensure git is installed by running `xcode-select --install`
 Ensure you are logged into git so the clone command below works correctly.
 
+## Install Homebrew
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jpollak/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+## Install Needed Tools
+
+```
+brew install stow
+brew install --cask git-credential-manager
+
+```
+
 ```
 cd ~
 REPO=git@github.com:jbcpollak/cfg.git

@@ -15,7 +15,7 @@ Ensure you are logged into git so the clone command below works correctly.
 ```
 cd ~
 REPO=https://github.com/jbcpollak/cfg
-git clone --bare ${REPO}.git $HOME/.cfg
+git clone --bare ${REPO}.git --recurse-submodules $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }

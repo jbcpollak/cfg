@@ -161,19 +161,14 @@
 	name = Joshua Chaitin-Pollak
 	email = josh@c11k.org
 	signingkey = 673EDBAC3AF19429
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 
 [hub]
 protocol = https
 
-
 [credential]
 	helper = osxkeychain
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
 [github]
 	user = jbcpollak
 [status]
@@ -182,5 +177,7 @@ protocol = https
 	name = automatically merge npm lockfiles
 	driver = npx --ignore-existing npm-merge-driver merge %A %O %B %P
 [commit]
-	gpgsign = true
+#	gpgsign = true
 	template = /Users/jpollak/.gittemplate
+[credential "https://dev.azure.com"]
+	useHttpPath = true

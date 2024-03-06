@@ -8,9 +8,12 @@ config submodule update --recursive --remote
 
 # First Checkout of Repo On a New Computer
 
+## Pre Requisites
 On a Mac, ensure git is installed by running `xcode-select --install`
+Ensure you are logged into git so the clone command below works correctly.
 
 ```
+cd ~
 REPO=https://github.com/jbcpollak/cfg
 git clone --bare ${REPO}.git $HOME/.cfg
 function config {

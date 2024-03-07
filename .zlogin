@@ -1,1 +1,0 @@
-/Users/jpollak/.zprezto/runcoms/zlogin

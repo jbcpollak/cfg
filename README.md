@@ -23,10 +23,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ## Install Needed Tools
 
 ```
-brew install stow
 brew install --cask git-credential-manager
 
 ```
+
+## Do Initial Checkout
 
 ```
 cd ~

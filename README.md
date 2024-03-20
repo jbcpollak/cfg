@@ -42,6 +42,7 @@ brew install --cask git-credential-manager
 ### Linux
 ```
 brew install git-credential-oauth
+git-credential-oauth configure
 ```
 
 ## Do Initial Checkout

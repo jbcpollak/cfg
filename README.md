@@ -32,9 +32,16 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 ```
 ## Install Needed Tools
 
+### Mac
+
 ```
 brew install --cask git-credential-manager
 
+```
+
+### Linux
+```
+brew install git-credential-oauth
 ```
 
 ## Do Initial Checkout

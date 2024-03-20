@@ -14,12 +14,22 @@ Ensure you are logged into git so the clone command below works correctly.
 
 ## Install Homebrew
 
+### For Mac
+
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jpollak/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
+### For Linux
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/jpollak/.bashrc
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+```
 ## Install Needed Tools
 
 ```

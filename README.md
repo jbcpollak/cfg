@@ -49,8 +49,8 @@ git-credential-oauth configure
 
 ```
 cd ~
-REPO=git@github.com:jbcpollak/cfg.git
-git clone --bare ${REPO}.git --recurse-submodules $HOME/.cfg
+REPO=https://github.com/jbcpollak/cfg.git
+git clone --bare ${REPO} --recurse-submodules $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
